@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #23252C;
+    
+}
+
+.app {
+    height: 900px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10% auto;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.info img {
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+}
+.body, .about, .interests, .footer{
+    background: #1A1B21;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
+.body h1{
+    font-size: 25px;
+    margin: 0;
+    padding-top: 20px;
+}
+.body h3{
+    font-size: 12px;
+    padding-top: 6px;
+}
+.body button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    row-gap: 20px;
+    width: 280px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 9px 0;
+    font-size: 14px;    
+}
+.body a{
+     text-decoration: none;
+     color: #374151;
+}
+.about, .interests{
+    padding: 32px 35px 0 35px;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 24px;
+}
+p{
+    font-size: 10px;
+    line-height: 16px;
+}
+.interests{
+    padding-bottom: 25px;
+}
+.footer {
+    
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 0px 0px 10px 10px;
+    background: black;
+    padding-block: 20px;
+}
+.footer a {
+    color: #918E9B;
+}
